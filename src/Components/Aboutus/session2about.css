@@ -1,0 +1,18 @@
+.conabout2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+.conabout2 img{
+    width: auto;
+    height: auto;
+}
+.conabout2 .condataabout{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

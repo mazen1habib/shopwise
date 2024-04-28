@@ -1,0 +1,81 @@
+.conaccount{
+    width: 100%;
+    height: 80Vh;
+    display: flex;
+   justify-content: center;
+  align-items: center;
+}
+.conaccount .conprofile{
+    width: 30%;
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px  rgb(224, 211, 211);
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 10px;
+}
+.conaccount .conprofile img{
+  width: 80px;
+  height: 80px;
+  margin-left: 130px;
+}
+.conaccount .conprofile .line1{
+    display: flex !important;
+    width: 300px;
+    height: 2px;
+    background-color: rgb(216, 207, 193);
+}
+.btn41-431 
+{
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn-411 
+  {
+    border: 2px solid bisque;
+    z-index: 1;
+    color: var(--text--color--);
+    width: 200px;
+    height: 50px;
+  }
+  .btn-411:after 
+  {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(241, 7, 7);
+    transition: all 0.3s ease;
+    
+  }
+  .btn-411:hover
+   {
+    color: rgb(255, 255, 255);
+  }
+  .btn-411:hover:after 
+  {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .btn-411:active
+   {
+    top: 2px;
+  }

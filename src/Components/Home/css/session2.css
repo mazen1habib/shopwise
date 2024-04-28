@@ -1,0 +1,111 @@
+.consession2{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding-left: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+button {
+    color: rgb(120, 108, 108);
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button::before {
+    margin-left: auto;
+  }
+  
+  button::after, button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  button:hover::after, button:hover::before {
+    width: 100%;
+  }
+.consession2 .session12  {
+    width: 600px;
+    height: 300px;
+    transition: 1s;
+    overflow: hidden;
+    position: relative;
+}
+.consession2 .session13   {
+    width: 600px;
+    height: 300px;
+    transition: 1s;
+    overflow: hidden;
+    position: relative;
+}
+.consession2 .session12 img{
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+.consession2 .session13 img   {
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.consession2 .session13 .imgeshop  :hover {
+    transform: scale(1.06);
+}
+.consession2 .session12 .imgeshop :hover  {
+    transform: scale(1.06);
+}
+.consession2 .session12 .conslide1{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 280px;
+    z-index: 99;
+    font-weight: 900;
+}
+.consession2 .session13 .conslide2 h1 ,.consession2 .session12 .conslide1 h1{
+    color: black !important;
+}
+.consession2 .session13 .conslide2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+  
+    margin-top: 50px;
+    margin-left: 300px;
+    z-index: 99;
+    font-weight: 900;
+}
+.bn40 {
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: large;
+    padding: 4px 6px;
+    color: #fff !important;
+    cursor: pointer;
+  }
+  
+  .bn40::after {
+    max-width: 100%;
+    height: 2px;
+    display: block;
+    content: "";
+    background: linear-gradient(-90deg, #ff9100 0%, #f10366 50%, #6173ff 100%);
+    opacity: 1;
+    margin-bottom: -6px;
+    margin-top: 1px;
+  }
+  
+  .bn40div {
+    display: flex;
+  }

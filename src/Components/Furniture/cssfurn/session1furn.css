@@ -1,0 +1,133 @@
+.mySwiperfurn{
+    width: 100%;
+    height: 60vh;
+}
+.mySwiperfurn .sec1furnbanner1{
+    background-image: url(../imgesfurn/banner7.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-top: -200px;
+    gap: 10px;
+}
+.mySwiperfurn .sec1furnbanner2{
+    background-image: url(../imgesfurn/banner8.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-top: -200px;
+    padding-left: 200px;
+    gap: 10px;
+}
+.mySwiperfurn .sec1furnbanner3{
+    background-image: url(../imgesfurn/banner9.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-top: -200px;
+    padding-left: 200px;
+    gap: 10px;
+}
+.datafurn1 h4 ,.datafurn2 h4 ,.datafurn4 h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+}
+.datafurn1 h1 ,.datafurn3 h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+}
+.datafurn2 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+    color: black;
+}
+.datafurn2 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+}
+.mySwiperfurn .sec1furnbanner1 .datafurn1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation-name: slidedown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.mySwiperfurn .sec1furnbanner2 .datafurn2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation-name: slidedown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.mySwiperfurn .sec1furnbanner3 .datafurn3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes slidedown
+{
+    0%
+    {
+      transform: translateY(-100px);
+      transform: 1.75;
+    } 
+    100%{
+        transform: translateY(0px);
+        transform: 1.75s;
+    }  
+}
+.mySwiperfurn .sec1furnbanner3 .datafurn3 a , .mySwiperfurn .sec1furnbanner2 .datafurn2 a ,.mySwiperfurn .sec1furnbanner1 .datafurn1 a{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bn3 {
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgb(255, 255, 255);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn3:hover {
+    color: rgb(254, 252, 252);
+    background-color: rgb(219, 46, 46);
+    border: 0.16em solid rgb(219, 46, 46);
+
+  }

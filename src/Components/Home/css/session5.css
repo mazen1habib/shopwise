@@ -1,0 +1,39 @@
+
+.containerproductc{
+ width: 70%;
+ min-height: 70vh;
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: 180px;
+ margin-top: 30px;
+
+}
+.containerproductc .productc{
+ width:260px;
+ height: 460px;
+ box-shadow: 1px 1px 1px 1px lightblue;
+}
+.containerproductc .productc .condatac{
+ width: 260px;
+ height: 150px;
+ padding-left: 20px;
+}
+.containerproductc .productc .condatac h3{
+    color: red;
+}
+.containerproductc .productc .condatac h3 span {
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.3);
+}
+.containerproductc .productc .condatac img{
+    width: 100px;
+    height: 50px;
+}
+.containerproductc .productc img{
+   max-width: 260px;
+    max-height: 400px;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+  

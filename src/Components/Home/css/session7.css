@@ -1,0 +1,30 @@
+.consec7{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.consec7 .line{
+    width: 2px;
+    height:20vh ;
+    background-color: lavenderblush;
+}
+.consec7 .condata {
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    gap: 10px;
+}
+.condata h3{
+margin-left: 80px;
+}
+.consec7 .condata img {
+max-width: 100px;
+max-height: 100px;
+margin-left: 90px;
+}
+.condata p{
+    color: var(--text--color--) ;
+}

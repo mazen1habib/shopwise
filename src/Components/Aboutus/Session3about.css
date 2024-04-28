@@ -1,0 +1,54 @@
+.con3aboutus{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(234, 234, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.con3aboutus .datasec3aboutus h1 ,.con3aboutus .datasec3aboutus p{
+    color: black;
+}
+
+.con3aboutus .datasec3aboutus{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.con3aboutus .concard p{
+    color: black;
+}
+.con3aboutus .concard{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.con3aboutus .concard .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px  rgb(224, 211, 211);
+    gap: 10px;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+}
+.con3aboutus .concard .cards .conimgabout{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(220, 124, 124);
+
+}
+.con3aboutus .concard .cards .conimgabout img{
+    width: 20px;
+    height: 20px;
+    
+}

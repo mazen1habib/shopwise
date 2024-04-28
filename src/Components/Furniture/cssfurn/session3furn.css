@@ -1,0 +1,88 @@
+.consec3furn{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.confurn3 {
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.consec3furn .confurn3 .pro{
+   width: 260px;
+    height:400px ;
+    box-shadow: 1px 1px rgb(224, 211, 211);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.consec3furn .pro  h6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+.consec31{
+    width: 100%;
+    height: 72px;
+    border-radius: 10px;
+}
+.buo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.consec3furn .pro .consec31 h3{
+    color: red;
+    margin-left: 90px;
+    font-weight: 600;
+
+}
+.consec3furn .pro .consec31 h3 span{
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.3);
+}
+.consec3furn .pro img {
+    max-width: 260px;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.consec31 .stadiv .star{
+    width: 300px;
+    height: 90px;
+    margin-top: -40px;
+}
+.bn3 {
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgb(255, 255, 255);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn3:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 7, 7);
+  }

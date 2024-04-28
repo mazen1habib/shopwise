@@ -1,0 +1,102 @@
+.conssinglepro{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conssinglepro .consigle1{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    gap: 20px;
+}
+.conssinglepro .consigle1 .datasingleproduct{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.conssinglepro .consigle1 .datasingleproduct .pd .hy{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}
+.conssinglepro .consigle1 .datasingleproduct .pd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+.conssinglepro .consigle1 .datasingleproduct .pd .hy h2{
+    color:rgb(172, 159, 159);
+    text-decoration: line-through;
+}
+.conssinglepro .consigle1 .datasingleproduct .pd .hy h3{
+    color:rgba(226, 13, 13, 0.6)
+}
+.conssinglepro .consigle1 .datasingleproduct .pd .im {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.conssinglepro .consigle1 .datasingleproduct .pd .im h6{
+    color:rgb(172, 159, 159);
+}
+.conssinglepro .consigle1 .datasingleproduct .pd .im img{
+    width: 100px;
+    height: 100px;
+    
+}
+.buoi .btn41-43 {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn-42 {
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1;
+    color: rgb(251, 7, 7);
+  }
+  
+  .btn-42:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(255, 1, 1);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-42:hover {
+    color: rgb(254, 254, 254);
+  }
+  
+  .btn-42:hover:after {
+    top: 0;
+    height: 100%;
+  }
+  
+  .btn-42:active {
+    top: 2px;
+  }
+
+ .conssinglepro img{
+    width: 400px;
+    height: 400px;
+    filter: drop-shadow(10px 7px 10px rgb(215, 187, 187));
+}

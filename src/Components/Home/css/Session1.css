@@ -1,0 +1,118 @@
+.mySwiper{
+    width: 100%;
+    height: 60vh;
+
+}
+.mySwiper .banner1 {
+    background-image: url(./imgehome/banner1.jpg); 
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.consec1 {
+    margin-top: 90px;
+    font-weight: 900;
+    animation-name: slidesecan;
+    animation-duration:1.7s;
+    animation-iteration-count: infinite;
+}
+.consec1 h4 ,.consec2 h4 ,.consec3 h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}
+.consec1 h1 ,.consec2 h1 ,.consec3 h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60PX;
+  color: black;
+}
+
+.consec2 {
+    margin-top: 90px;
+    font-weight: 900;
+    animation-name: slidesecan;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+}
+.consec3 {
+    margin-top: 90px;
+    font-weight: 900;
+    animation-name: slidesecan;
+    animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+}
+@keyframes slidesecan 
+{
+    0%
+    {
+      transform: translateX(0px);
+      transform: 0s;
+    } 
+  100%
+    {
+        transform: translateX(100px);
+        transform: 1.7s;
+    }
+    
+}
+.mySwiper .banner2{
+    background-image: url(./imgehome/banner2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.mySwiper .banner3{
+    background-image: url(./imgehome/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn41-43 
+{
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  .btn-41 
+  {
+    border: 2px solid bisque;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+  }
+  .btn-41:after 
+  {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: black;
+    transition: all 0.3s ease;
+  }
+  .btn-41:hover
+   {
+    color: rgb(255, 255, 255);
+  }
+  .btn-41:hover:after 
+  {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .btn-41:active
+   {
+    top: 2px;
+  }

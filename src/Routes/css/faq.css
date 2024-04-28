@@ -1,0 +1,40 @@
+.bigcon{
+ width: 100%;
+ min-height: 80vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.confaq{
+    width: 80%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.confaq .con1faq ,.confaq .con2faq {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    min-height: 60vh;
+}
+.confaq .con1faq  data ,.confaq .con2faq data{
+    display: flex;
+    flex-direction: column;
+}
+.data .data1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.data .linfaq{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(214, 208, 201);
+}
+.d p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(113, 145, 134);
+}

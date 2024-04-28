@@ -1,0 +1,82 @@
+.contactus{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactus .dataconatctus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px  rgb(224, 211, 211);
+    width: 300px;
+    height: 300px;
+}
+.contactus .dataconatctus .contactu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid red;
+    width: 80px;
+    height: 80px;
+    transition: 1s;
+}
+.contactus .dataconatctus .contactu:hover{
+    background-color: red;
+    transition: 1s;
+}
+.conorder{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conorder img{
+    width: 100px;
+    height: 100px;
+}
+.conorder p {
+    color: rgb(166, 168, 169);
+}
+.conorder  button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+   }
+   
+   .conorder button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .conorder button:hover::before {
+    width: 105%;
+   }
+   
+   .conorder button:hover {
+    color: #111;
+   }
+   

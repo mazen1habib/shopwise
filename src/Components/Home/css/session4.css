@@ -1,0 +1,65 @@
+.containersec4{
+    width: 100%;
+    height: 72.5vh;
+    background-color: rgb(217, 237, 244);
+}
+.containersec4 img{
+    height: 80vh;
+    width: auto;
+    margin-left: 140px;
+    margin-top: -50px;
+}
+.containersec4 .condata{
+    margin-left:700px;
+    margin-top: -350px;
+
+}
+.containersec4 .condata h1 ,h2{
+  color: black !important;
+}
+.btn41-43 
+{
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .btn-41 
+  {
+    border: 2px solid bisque;
+    z-index: 1;
+    color: rgb(246, 4, 4);
+  }
+  .btn-41:after 
+  {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(255, 2, 2);
+    transition: all 0.3s ease;
+  }
+  .btn-41:hover
+   {
+    color: rgb(255, 255, 255);
+  }
+  .btn-41:hover:after 
+  {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .btn-41:active
+   {
+    top: 2px;
+  }

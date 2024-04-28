@@ -1,0 +1,29 @@
+.consec6{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 237, 244);
+}
+.consec6 .mySwiper2{
+    width: 70%;
+    height: 50vh;
+}
+.consec6 .mySwiper2 .sec6slide h1 ,.consec6 .mySwiper2 .sec6slide  p{
+    color: black ;
+}
+.consec6 .mySwiper2 .sec6slide{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.conimge{
+    display: flex;
+    gap: 20px;
+   justify-content: center;
+}
+.condatasec6 h5{
+    color: black !important;
+}

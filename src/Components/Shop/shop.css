@@ -1,0 +1,282 @@
+.upshop{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 90px;
+    height: 60px;
+    gap: 15px;
+}
+.shop4{
+    width: 100%;
+    min-height: 100vh;
+    display: flex !important;
+   gap: 15px;
+}
+
+.shop3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.scart{
+margin-top: 10px;
+}
+.conbigshop{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.slideshop{
+    width:270px;
+    display: flex;
+    justify-content: start;
+    height: 500px;
+    background-color: blue;
+    margin-right: 40px;
+    position: relative;
+}
+.c-button {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .c-button--gooey {
+    color: #06c8d9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #06c8d9;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+  }
+  
+  .c-button--gooey .c-button__blobs div {
+    background-color: #06c8d9;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(1) {
+    left: -5%;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+  }
+  
+  .c-button--gooey:hover {
+    color: #fff;
+  }
+  
+  .c-button--gooey:hover .c-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+  }
+.opshop{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 300px;
+    padding-left: 20px;
+}
+.opshop h3{
+    font-size: 20px;
+}
+.opshop h1{
+font-size: 30px;
+color: white;
+}
+.slideshop img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.conshop{
+    width: 85%;
+    min-height: 100vh;
+    gap: 10px;
+    display: flex;
+    /* justify-content: start;
+    align-items: start; */
+    flex-direction: column;
+    padding: 10px;
+}
+
+.conshop .productshop{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px  rgb(224, 211, 211);
+    gap: 20px;
+}
+.conshop .productshop img{
+    height: 300px;
+    width: 300px;
+}
+.conshop .productshop .condatashop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.conshop .productshop .condatashop p{
+    color: var(--text--color--) ;
+}
+
+.conshop .productshop .condatashop .sales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    width: 100%;
+    height: 20px;
+}
+ h3{
+    display: flex;
+    gap: 10px;
+    color: red;
+}
+
+.conshop .productshop .condatashop .sales .no{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+ span{
+    color: rgba(0,0, 0,0.7);
+    text-decoration-line: line-through;
+}
+.conshop .productshop .condatashop .sales .no img{
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+.conshop .productshop .condatashop .colorsm{
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    height: 30px;
+    justify-content: space-evenly;
+    
+}
+.conshop .productshop .condatashop .colorsm .c1{
+    background-color: rgb(238, 3, 3);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+.conshop .productshop .condatashop .colorsm .c2{
+    background-color: rgb(214, 41, 168);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+.conshop .productshop .condatashop .colorsm .c3{
+    background-color: rgb(25, 22, 126);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+.buto{
+    display: flex;
+   align-items: center;
+}
+.buto .barshop{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    gap: 10px;
+}
+/* .shop3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+.conshop1{
+    justify-content: start;
+    align-items: start;
+    width: 90%;
+    min-height:350vh ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 100px;
+}
+.conshop1 .pro1shop{
+    width:260px;
+ height: 430px;
+ box-shadow: 2px 2px 2px 2px  rgb(224, 211, 211);
+}
+.conu{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.conu h3{
+    margin-left: 20px;
+}
+.conshop1 .pro1shop img{
+    width: 260px;
+    max-height: 400px;
+    position: relative
+}
+.condata img{
+    width: 100px;
+    height: 190px;
+}
+.op{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.conu h2{
+    color: var(--text--color--) !important;
+}
+
+
+
+
+
+
+
+
+
+
+

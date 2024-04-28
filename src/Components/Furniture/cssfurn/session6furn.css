@@ -1,0 +1,25 @@
+.consec6furn{
+    width: 100%;
+    height: 30vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.consec6furn .mySwipersec6furn{
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    position: relative;
+
+}
+.consec6furn .mySwipersec6furn .mo{
+    
+    width: 200px;
+    height: 200px;
+}
+.consec6furn .mySwipersec6furn .m0 img {
+    width: 500px;
+    height: 300px;
+}

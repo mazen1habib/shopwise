@@ -1,0 +1,24 @@
+.consec4about{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.consec4about .data1sec4about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.consec4about .cardssec4about{
+    display: flex;
+    gap: 10px;
+}
+.consec4about.cardssec4about .cardsec4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

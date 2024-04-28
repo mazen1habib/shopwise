@@ -1,0 +1,113 @@
+.conslideupo{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000;
+}
+.rt{
+    display: flex;
+}
+.conslideupo .conslidepo1{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    gap: 10px;
+}
+.conslideupo .conslidepo1 .dataslidepo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.dataslidepo button {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: hsl(255deg 50% 40%);
+    border: solid 4px hsl(53, 4%, 62%);
+    font-family: inherit;
+    text-decoration: none;
+    width: 200px;
+    height: 70px;
+   }
+   
+   .dataslidepo  .default-btn, .dataslidepo  .hover-btn {
+    background-color: hsl(255deg 50% 40%);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    text-decoration: none;
+   }
+   
+   .dataslidepo  .hover-btn {
+    position: absolute;
+    inset: 0;
+    background-color: hsl(255deg 50% 49%);
+    transform: translate(0%,100%);
+    text-decoration: none;
+   }
+   
+   .dataslidepo  .default-btn span {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+   }
+   
+   .dataslidepo  .hover-btn span {
+    color: hsl(50deg 100% 50%);
+    text-decoration: none;
+   }
+   
+   .dataslidepo  button:hover .default-btn {
+    transform: translate(0%,-100%);
+   }
+   
+   .dataslidepo  button:hover .hover-btn {
+    transform: translate(0%,0%);
+   }
+
+
+
+
+   .dataslidepo .input {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    box-shadow: 20px 20px 60px #fee9e9,
+           -20px -20px 60px #ededed;
+    transition: 0.3s;
+    width: 300px;
+   }
+   
+   .dataslidepo  .input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #f6dada,
+           inset -20px -20px 60px #ebebeb;
+    transition: 0.3s;
+   }
+
+
+
+
+
+   
